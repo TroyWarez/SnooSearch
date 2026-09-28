@@ -1,13 +1,13 @@
-chrome.runtime.onInstalled.addListener(() => {
-chrome.contextMenus.create({
+browser.runtime.onInstalled.addListener(() => {
+browser.contextMenus.create({
         id:"SnooSearch",
         title:"Search for \"%s reddit\"",
         contexts: ["selection"]
     });
 });
-chrome.contextMenus.onClicked.addListener((info, tab) => {
+browser.contextMenus.onClicked.addListener((info, tab) => {
     
-    chrome.search.query({
+    browser.search.query({
     text: info.selectionText + " reddit",
     disposition: "NEW_TAB"
         });
