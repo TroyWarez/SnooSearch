@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- The Magnifying Glass Circle -->
+  <circle cx="54" cy="54" r="34" fill="none" stroke="#FF4500" stroke-width="16"/>
+  <!-- The Handle -->
+  <line x1="77" y1="77" x2="114" y2="114" stroke="#FF4500" stroke-width="16" stroke-linecap="butt"/>
+</svg>
