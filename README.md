@@ -1,2 +1,2 @@
-# CustomSearch
-Basic extenstion for searching reddit.
+# Snoo Search
+Basic extension for searching reddit using a default search engine.
